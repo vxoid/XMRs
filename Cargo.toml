@@ -1,0 +1,11 @@
+[package]
+name = "xmrs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.174", features = ["derive"] }
+clap = { version = "4.3.19", features = ["derive"] }
+tokio = { version = "1.29.1", features = ["full"] }
+serde_json = "1.0.103"
+randomx = "0.1.0"
